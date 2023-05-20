@@ -7,7 +7,7 @@ def test_sqrt_failure():
 def test_square_failure():
     assert 7*7 == 40
 
-def test_equality_failure():
+def test_equality_pass():
     assert 10 == 10
 
 
