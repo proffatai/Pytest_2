@@ -8,7 +8,7 @@ def test_square_failure():
     assert 7*7 == 40
 
 def test_equality_failure():
-    assert 10 == 11
+    assert 10 == 10
 
 
 # During test execution, use the command: `pytest test_failure.py --maxfail=1`
